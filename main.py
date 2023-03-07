@@ -10,7 +10,7 @@ def index():
 
 @app.route('/predict')
 def home():
-    return "Chalu ahe"
+    return "Chalu ahe ha pn route"
 
 
 if __name__ == '__main__':
