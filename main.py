@@ -20,7 +20,7 @@ def Pred():
     input_query = np.array([[cgpa,iq,profile_score]])
     result = model.predict(input_query)[0]
     
-    return jsonify({'placement':result})
+    return jsonify({'placement':str(result)})
 
 if __name__ == '__main__':
     app.run(debug=True)
